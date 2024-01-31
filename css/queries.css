@@ -1,0 +1,701 @@
+/* media query */
+@media (max-width: 400px){
+    /* General */
+    h1{
+      font-size: 2em;
+    }
+    .external{
+      margin: 2% 5%;
+      height: 80vh;
+    }
+    .left-side,
+    .right-side{
+      margin: 1%;
+    }
+    #search-bar{
+      font-size: 1.5rem;
+    }
+  
+    /* Right Side */
+    .blue-round{
+      height: 25px;
+      width: 25px;
+      border: 2px solid grey;
+    }
+    .display-border{
+      height: 200px; 
+    }
+    .display{
+      width: 80%;
+      height: 80%;
+      border: 5px solid rgb(255, 255, 255);
+    }
+    .span{
+      display: none;
+    }
+    .green-display{
+      margin: 0;
+      margin-left: 50px;
+      margin-top: 100px;
+      width: 150px;
+      height: 200px;
+    }
+    .pkm{
+      margin: 0;
+      width: 200px;
+      height: 140px;
+    }
+    .pkm-img{
+      margin: 0 auto;
+      /* margin-left: 40%; */
+      max-width: 150px;
+      max-height: 150px;
+    }
+    .pkm-name{
+      margin: 0;
+      margin-left: 0;
+      margin-right: 0;
+      width: 150px;
+      background: #000;
+    }
+    .black-round{
+      margin: 0;
+      position: absolute;
+      top: 400px;
+      left: 75px;
+      width: 25px;
+      height: 25px;
+    }
+    .cross{
+      width: 50px;
+      height: 50px;
+    }
+    .cross:before,
+    .cross:after{
+      width: 50px;
+      height: 15px;
+      top: -50px;
+      left: -50px;
+    }
+  
+    /* Left side */
+    .black-display{
+      width: 85%;
+      min-height: 15%;
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+    .grid > div{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .wite{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .gold-round{
+      height: 25px;
+      width: 25px;
+    }
+  
+    .thing-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .black-thing{
+      background: #000;
+      height: 25px;
+      width: 50px;
+      border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+  /* General */
+  h1{
+    font-size: 2em;
+  }
+  .external{
+    margin: 2% 5%;
+    height: 80vh;
+  }
+  .left-side,
+  .right-side{
+    margin: 1%;
+  }
+  #search-bar{
+    font-size: 1.5rem;
+  }
+
+  /* Right Side */
+  .blue-round{
+    height: 25px;
+    width: 25px;
+    border: 2px solid grey;
+  }
+  .display-border{
+    height: 200px; 
+  }
+  .display{
+    width: 80%;
+    height: 80%;
+    border: 5px solid rgb(255, 255, 255);
+  }
+  .span{
+    display: none;
+  }
+  .green-display{
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 150px;
+    height: 200px;
+  }
+  .pkm{
+    margin: 0;
+    width: 200px;
+    height: 140px;
+  }
+  .pkm-img{
+    margin: 0 auto;
+    /* margin-left: 40%; */
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .pkm-name{
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 150px;
+    background: #000;
+  }
+  .black-round{
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 75px;
+    width: 25px;
+    height: 25px;
+  }
+  .cross{
+    width: 50px;
+    height: 50px;
+  }
+  .cross:before,
+  .cross:after{
+    width: 50px;
+    height: 15px;
+    top: -50px;
+    left: -50px;
+  }
+
+  /* Left side */
+  .black-display{
+    width: 85%;
+    min-height: 15%;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .grid > div{
+    border-radius: 5px;
+    width: 30px;
+    height: 25px;
+  }
+  .wite{
+    border-radius: 5px;
+    width: 30px;
+    height: 25px;
+  }
+  .gold-round{
+    height: 25px;
+    width: 25px;
+  }
+
+  .thing-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .black-thing{
+    background: #000;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+    /* General */
+    h1{
+      font-size: 2em;
+    }
+    .external{
+      margin: 2% 5%;
+      height: 80vh;
+    }
+    .left-side,
+    .right-side{
+      margin: 1%;
+    }
+    #search-bar{
+      font-size: 1.5rem;
+    }
+  
+    /* Right Side */
+    .blue-round{
+      height: 25px;
+      width: 25px;
+      border: 2px solid grey;
+    }
+    .display-border{
+      height: 200px; 
+    }
+    .display{
+      width: 80%;
+      height: 80%;
+      border: 5px solid rgb(255, 255, 255);
+    }
+    .span{
+      display: none;
+    }
+    .green-display{
+      margin: 0;
+      margin-left: 50px;
+      margin-top: 100px;
+      width: 150px;
+      height: 200px;
+    }
+    .pkm{
+      margin: 0;
+      width: 200px;
+      height: 140px;
+    }
+    .pkm-img{
+      margin: 0 auto;
+      /* margin-left: 40%; */
+      max-width: 150px;
+      max-height: 150px;
+    }
+    .pkm-name{
+      margin: 0;
+      margin-left: 0;
+      margin-right: 0;
+      width: 150px;
+      background: #000;
+    }
+    .black-round{
+      margin: 0;
+      position: absolute;
+      top: 400px;
+      left: 75px;
+      width: 25px;
+      height: 25px;
+    }
+    .cross{
+      width: 50px;
+      height: 50px;
+    }
+    .cross:before,
+    .cross:after{
+      width: 50px;
+      height: 15px;
+      top: -50px;
+      left: -50px;
+    }
+  
+    /* Left side */
+    .black-display{
+      width: 85%;
+      min-height: 15%;
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+    .grid > div{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .wite{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .gold-round{
+      height: 25px;
+      width: 25px;
+    }
+  
+    .thing-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .black-thing{
+      background: #000;
+      height: 25px;
+      width: 50px;
+      border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    /* General */
+    h1{
+      font-size: 2em;
+    }
+    .external{
+      margin: 2% 5%;
+      height: 80vh;
+    }
+    .left-side,
+    .right-side{
+      margin: 1%;
+    }
+    #search-bar{
+      font-size: 1.5rem;
+    }
+  
+    /* Right Side */
+    .blue-round{
+      height: 25px;
+      width: 25px;
+      border: 2px solid grey;
+    }
+    .display-border{
+      height: 200px; 
+    }
+    .display{
+      width: 80%;
+      height: 80%;
+      border: 5px solid rgb(255, 255, 255);
+    }
+    .span{
+      display: none;
+    }
+    .green-display{
+      margin: 0;
+      margin-left: 50px;
+      margin-top: 100px;
+      width: 150px;
+      height: 200px;
+    }
+    .pkm{
+      margin: 0;
+      width: 200px;
+      height: 140px;
+    }
+    .pkm-img{
+      margin: 0 auto;
+      /* margin-left: 40%; */
+      max-width: 150px;
+      max-height: 150px;
+    }
+    .pkm-name{
+      margin: 0;
+      margin-left: 0;
+      margin-right: 0;
+      width: 150px;
+      background: #000;
+    }
+    .black-round{
+      margin: 0;
+      position: absolute;
+      top: 400px;
+      left: 75px;
+      width: 25px;
+      height: 25px;
+    }
+    .cross{
+      width: 50px;
+      height: 50px;
+    }
+    .cross:before,
+    .cross:after{
+      width: 50px;
+      height: 15px;
+      top: -50px;
+      left: -50px;
+    }
+  
+    /* Left side */
+    .black-display{
+      width: 85%;
+      min-height: 15%;
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+    .grid > div{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .wite{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .gold-round{
+      height: 25px;
+      width: 25px;
+    }
+  
+    .thing-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .black-thing{
+      background: #000;
+      height: 25px;
+      width: 50px;
+      border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1299px){
+    /* General */
+    h1{
+      font-size: 3em;
+    }
+    .external{
+      margin: 2% 5%;
+      height: 80vh;
+    }
+    .left-side,
+    .right-side{
+      margin: 1%;
+    }
+    #search-bar{
+      font-size: 1.5rem;
+    }
+  
+    /* Right Side */
+    .blue-round{
+      height: 25px;
+      width: 25px;
+      border: 2px solid grey;
+    }
+    .display-border{
+      height: 200px; 
+    }
+    .display{
+      width: 80%;
+      height: 80%;
+      border: 5px solid rgb(255, 255, 255);
+    }
+    .span{
+      display: none;
+    }
+    .green-display{
+      margin: 0;
+      margin-left: 50px;
+      margin-top: 100px;
+      width: 150px;
+      height: 200px;
+    }
+    .pkm{
+      margin: 0;
+      width: 200px;
+      height: 140px;
+    }
+    .pkm-img{
+      margin: 0 auto;
+      /* margin-left: 40%; */
+      max-width: 150px;
+      max-height: 150px;
+    }
+    .pkm-name{
+      margin: 0;
+      margin-left: 0;
+      margin-right: 0;
+      width: 150px;
+      background: #000;
+    }
+    .black-round{
+      margin: 0;
+      position: absolute;
+      top: 400px;
+      left: 75px;
+      width: 25px;
+      height: 25px;
+    }
+    .cross{
+      width: 50px;
+      height: 50px;
+    }
+    .cross:before,
+    .cross:after{
+      width: 50px;
+      height: 15px;
+      top: -50px;
+      left: -50px;
+    }
+  
+    /* Left side */
+    .black-display{
+      width: 85%;
+      min-height: 15%;
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+    .grid > div{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .wite{
+      border-radius: 5px;
+      width: 30px;
+      height: 25px;
+    }
+    .gold-round{
+      height: 25px;
+      width: 25px;
+    }
+  
+    .thing-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .black-thing{
+      background: #000;
+      height: 25px;
+      width: 50px;
+      border-radius: 10px;
+    }
+
+}
+
+@media (min-width: 1300px) and (max-width: 1700px){
+      /* General */
+      h1{
+        font-size: 3em;
+      }
+      .external{
+        margin: 2% 5%;
+        height: 80vh;
+      }
+      .left-side,
+      .right-side{
+        margin: 1%;
+      }
+      #search-bar{
+        font-size: 1.5rem;
+      }
+    
+      /* Right Side */
+      .blue-round{
+        height: 25px;
+        width: 25px;
+        border: 2px solid grey;
+      }
+      .display-border{
+        height: 200px; 
+      }
+      .display{
+        width: 80%;
+        height: 80%;
+        border: 5px solid rgb(255, 255, 255);
+      }
+      .span{
+        display: none;
+      }
+      .green-display{
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 100px;
+        width: 150px;
+        height: 200px;
+      }
+      .pkm{
+        margin: 0;
+        width: 200px;
+        height: 140px;
+      }
+      .pkm-img{
+        margin: 0 auto;
+        /* margin-left: 40%; */
+        max-width: 150px;
+        max-height: 150px;
+      }
+      .pkm-name{
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 150px;
+        background: #000;
+      }
+      .black-round{
+        margin: 0;
+        position: absolute;
+        top: 400px;
+        left: 75px;
+        width: 25px;
+        height: 25px;
+      }
+      .cross{
+        width: 50px;
+        height: 50px;
+      }
+      .cross:before,
+      .cross:after{
+        width: 50px;
+        height: 15px;
+        top: -50px;
+        left: -50px;
+      }
+    
+      /* Left side */
+      .black-display{
+        width: 85%;
+        min-height: 15%;
+        font-size: 1.5rem;
+        line-height: 2;
+      }
+      .grid > div{
+        border-radius: 5px;
+        width: 30px;
+        height: 25px;
+      }
+      .wite{
+        border-radius: 5px;
+        width: 30px;
+        height: 25px;
+      }
+      .gold-round{
+        height: 25px;
+        width: 25px;
+      }
+    
+      .thing-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+      }
+    
+      .black-thing{
+        background: #000;
+        height: 25px;
+        width: 50px;
+        border-radius: 10px;
+      }
+
+}

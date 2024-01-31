@@ -5,10 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="assets/css/general.css">
-  <link rel="stylesheet" href="assets/css/left-side.css">
-  <link rel="stylesheet" href="assets/css/right-side.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/left-side.css">
+  <link rel="stylesheet" href="css/right-side.css">
+  <link rel="stylesheet" href="css/queries.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/pokedex.js" defer></script>
 
   <title>Pokedex</title>
 </head>
@@ -18,6 +20,7 @@
   <h1>POKEDEX</h1>
 
   <div class="external">
+
 
     <div class="left-side">
 
@@ -39,7 +42,7 @@
         </div>
         <div class="display">
           <div style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-            <input type="text" id="search-bar" placeholder="Scrivi Nome o Tipo">
+            <input type="text" id="search-bar" placeholder="Scrivi nome o 'type:fire'">
           </div>
         </div>
         <div class="red-span-container">
@@ -60,14 +63,12 @@
             <button class="flat-blue"></button> 
           </div>
           <div class="green-display">
-            <div id="pokedex" class="flex flex-wrap" style="display: none;"></div>
+            <div id="pokedex" class="flex flex-wrap"></div>
           </div> 
         </div>
-
         <div class="cross"></div>
       </div>
       
-
     </div>
 
     <div class="right-side">
@@ -110,14 +111,8 @@
 
     </div>
 
+
   </div>
-  
-
-
-
-  
-
-  <script src="assets/js/pokedex.js"></script>
 
 </body>
 </html>

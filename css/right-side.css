@@ -1,0 +1,91 @@
+
+.black-display{
+  margin: 1%;
+  background: #000;
+  border-radius: 10px;
+  width: 85%;
+  min-height: 15%;
+  font-family: "solid";
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: center;
+  color: rgb(37, 94, 148);
+  text-shadow: -2px 0 #ffd900, 0 2px #ffd900, 2px 0 #ffd900, 0 -2px #ffd900;
+
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.grid > div{
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgb(69, 158, 158);
+  width: 125px;
+  height: 100px;
+}
+
+.empty-flat-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.flat-container{
+  width: 25%;
+  margin-right: 10%;
+}
+
+.black-flat{
+  width: 100px;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  margin: 1%;
+}
+
+.gw-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.wite-container{
+  margin: 0 5%;
+  display: flex;
+}
+
+.wite{
+  background: white;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 125px;
+  height: 100px;
+}
+
+.gold-round{
+  margin: 0 5%;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  background: gold;
+  border-radius: 50%;
+}
+
+.thing-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.black-thing{
+  background: #000;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+}
