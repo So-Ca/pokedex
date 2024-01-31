@@ -10,6 +10,6 @@
 
   <h3>Link</h3>
 
-  <a href="https://climate-stats-so-ca.netlify.app/">Pokedex</a><br>
+  <a href="[https://climate-stats-so-ca.netlify.app/](https://inspiring-granita-db882c.netlify.app/)">Pokedex</a><br>
   <a href="https://sonny-caputo-portfolio.netlify.app/">Portfolio</a><br>
   <a href="https://www.linkedin.com/in/sonny-caputo-554315185">Likedin</a><br>
